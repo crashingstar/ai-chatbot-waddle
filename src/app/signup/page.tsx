@@ -61,12 +61,17 @@ function Page(): JSX.Element {
               className="w-full border border-gray-300 rounded px-3 py-2"
             />
           </div>
-          <button
-            type="submit"
-            className="w-full bg-blue-500 text-white font-semibold py-2 rounded"
-          >
-            Sign up
-          </button>
+          <div className="flex flex-col gap-4 items-center justify-between">
+            <button
+              type="submit"
+              className="w-full bg-blue-500 text-white font-semibold py-2 rounded"
+            >
+              Sign up
+            </button>
+            <a href="/signin">
+              <p>Have an account sign in here</p>
+            </a>
+          </div>
         </form>
       </div>
     </div>

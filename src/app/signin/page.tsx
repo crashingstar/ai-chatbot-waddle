@@ -63,13 +63,16 @@ function Page(): JSX.Element {
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             />
           </div>
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col gap-4 items-center justify-between">
             <button
               type="submit"
               className="w-full bg-blue-500 text-white font-semibold py-2 rounded"
             >
               Sign In
             </button>
+            <a href="/signup">
+              <p>No account yet? Sign up here</p>
+            </a>
           </div>
         </form>
       </div>
